@@ -105,4 +105,27 @@ db.users.find()
 
 ---
 
+👉
+* Permanently deletes the `users` collection and all its documents
+* Returns `true` on success
+> ⚠️ **Warning:** This action is irreversible. All data in the collection will be lost.
+---
+## 🗑️ Drop the Current Database
+```js
+// First switch to the database you want to drop
+use myFirstDB
+
+// Then drop it
+db.dropDatabase()
+```
+👉 Deletes the entire current database along with all its collections and documents
+> ⚠️ **Warning:** This action is irreversible. All collections and documents will be permanently deleted.
+---
+## ✅ Verify After Dropping
+```js
+show dbs         // database should no longer appear
+show collections // collection should no longer appear
+```
+👉 Empty databases are not shown in `show dbs` — this is expected MongoDB behaviour
+
 
