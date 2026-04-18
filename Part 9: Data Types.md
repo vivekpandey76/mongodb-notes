@@ -271,3 +271,7 @@ db.students.insertOne({
   "profilePic": BinData(0, "abc123==")      // Binary Data
 })
 ```
+
+> 🙌 **Contributed by:** Vivek Pandey  
+> 📅 **Last Updated:** 2026  
+> ⭐ If this helped you, consider starring the repo!
