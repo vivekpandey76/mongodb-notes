@@ -4,6 +4,22 @@ A hands-on reference guide for MongoDB CRUD (Create, Read, Update, Delete) opera
 
 ---
 
+## 🎬 Video Tutorial
+
+<div align="center">
+
+[![MongoDB Logical Operators - Video Tutorial](https://img.youtube.com/vi/yp_dxjs-a-s/maxresdefault.jpg)](https://www.youtube.com/watch?v=Hvwvz54WhNI)
+
+### 📺 [Watch This Video](https://www.youtube.com/watch?v=Hvwvz54WhNI) &nbsp;|&nbsp; 🎵 [Full MongoDB Playlist](https://www.youtube.com/playlist?list=PLkFShEMrLia0s46qqN4CykmOrkGoPyHnW) &nbsp;|&nbsp; 🔔 Subscribe for more!
+
+> 💛 **Support me** — If this helped you, please **like 👍**, **share 🔗**, **subscribe 🔔**, and follow the full playlist to learn MongoDB from scratch!
+
+</div>
+
+---
+
+---
+
 ## 📦 Setup
 
 ### Prerequisites
