@@ -4,6 +4,22 @@
 
 ---
 
+## 🎬 Video Tutorial
+
+<div align="center">
+
+[![MongoDB Logical Operators - Video Tutorial](https://img.youtube.com/vi/LkcRxHI1dp0/maxresdefault.jpg)](https://www.youtube.com/watch?v=LkcRxHI1dp0)
+
+### 📺 [Watch This Video](https://www.youtube.com/watch?v=LkcRxHI1dp0) &nbsp;|&nbsp; 🎵 [Full MongoDB Playlist](https://www.youtube.com/playlist?list=PLkFShEMrLia0s46qqN4CykmOrkGoPyHnW) &nbsp;|&nbsp; 🔔 Subscribe for more!
+
+> 💛 **Support me** — If this helped you, please **like 👍**, **share 🔗**, **subscribe 🔔**, and follow the full playlist to learn MongoDB from scratch!
+
+</div>
+
+---
+
+---
+
 ## 📋 Table of Contents
 
 - [Overview](#overview)
