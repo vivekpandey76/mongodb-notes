@@ -251,4 +251,6 @@ getPage(3)  // Third page
 
 ---
 
-*Subscribe for more! 🍃*
+> 🙌 **Contributed by:** Vivek Pandey  
+> 📅 **Last Updated:** 2026  
+> ⭐ If this helped you, consider starring the repo!
