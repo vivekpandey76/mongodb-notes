@@ -129,3 +129,7 @@ show collections // collection should no longer appear
 👉 Empty databases are not shown in `show dbs` — this is expected MongoDB behaviour
 
 
+> 🙌 **Contributed by:** Vivek Pandey  
+> 📅 **Last Updated:** 2026  
+> ⭐ If this helped you, consider starring the repo!
+
