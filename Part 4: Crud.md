@@ -329,3 +329,7 @@ db.Orders.deleteMany({ status: "pending" })
 | `deletedCount` | How many documents were removed |
 
 ---
+
+> 🙌 **Contributed by:** Vivek Pandey  
+> 📅 **Last Updated:** 2026  
+> ⭐ If this helped you, consider starring the repo!
