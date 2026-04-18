@@ -8,9 +8,9 @@
 
 <div align="center">
 
-[![MongoDB Basic Query](https://img.youtube.com/vi/_3AB2R5F3ig/maxresdefault.jpg)](https://www.youtube.com/watch?v=_3AB2R5F3ig)
+[![MongoDB Basic Query](https://img.youtube.com/vi/yp_dxjs-a-s/maxresdefault.jpg)](https://www.youtube.com/watch?v=yp_dxjs-a-s)
 
-### 📺 [Watch This Video](https://youtu.be/yp_dxjs-a-s) &nbsp;|&nbsp; 🎵 [Full MongoDB Playlist](https://www.youtube.com/playlist?list=PLkFShEMrLia0s46qqN4CykmOrkGoPyHnW) &nbsp;|&nbsp; 🔔 Subscribe for more!
+### 📺 [Watch This Video](https://www.youtube.com/watch?v=yp_dxjs-a-s) &nbsp;|&nbsp; 🎵 [Full MongoDB Playlist](https://www.youtube.com/playlist?list=PLkFShEMrLia0s46qqN4CykmOrkGoPyHnW) &nbsp;|&nbsp; 🔔 Subscribe for more!
 
 > 💛 **Support me** — If this helped you, please **like 👍**, **share 🔗**, **subscribe 🔔**, and follow the full playlist to learn MongoDB from scratch!
 
