@@ -238,3 +238,7 @@ db.Orders.updateMany(
 
 
 > 📝 **Note:** Always test update queries on a **dev/staging database** before running on production. Use `.find()` with the same filter first to verify which documents will be affected.
+
+> 🙌 **Contributed by:** Vivek Pandey  
+> 📅 **Last Updated:** 2026  
+> ⭐ If this helped you, consider starring the repo!
