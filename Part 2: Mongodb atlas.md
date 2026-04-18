@@ -271,8 +271,6 @@ You now know how to:
 
 ---
 
-## 🤝 Contributing
-
-Found a mistake or want to improve this guide? Feel free to open an issue or submit a pull request!
-
----
+> 🙌 **Contributed by:** Vivek Pandey  
+> 📅 **Last Updated:** 2026  
+> ⭐ If this helped you, consider starring the repo!
