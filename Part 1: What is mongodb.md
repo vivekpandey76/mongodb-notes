@@ -102,3 +102,7 @@ You (Developer)
 
 > 💡 **Remember:** Start `mongod` first → then connect via `mongosh` or Compass.
 > No server = no database.
+
+> 🙌 **Contributed by:** Vivek Pandey  
+> 📅 **Last Updated:** 2026  
+> ⭐ If this helped you, consider starring the repo!
