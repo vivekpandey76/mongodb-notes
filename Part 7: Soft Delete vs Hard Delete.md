@@ -4,6 +4,22 @@
 
 ---
 
+## 🎬 Video Tutorial
+
+<div align="center">
+
+[![MongoDB Basic Query](https://img.youtube.com/vi/1XeOrOHIG8g/maxresdefault.jpg)](https://www.youtube.com/watch?v=1XeOrOHIG8g)
+
+### 📺 [Watch This Video](https://www.youtube.com/watch?v=1XeOrOHIG8g) &nbsp;|&nbsp; 🎵 [Full MongoDB Playlist](https://www.youtube.com/playlist?list=PLkFShEMrLia0s46qqN4CykmOrkGoPyHnW) &nbsp;|&nbsp; 🔔 Subscribe for more!
+
+> 💛 **Support me** — If this helped you, please **like 👍**, **share 🔗**, **subscribe 🔔**, and follow the full playlist to learn MongoDB from scratch!
+
+</div>
+
+---
+
+---
+
 ## 📌 Table of Contents
 
 - [Hard Delete](#-hard-delete)
