@@ -262,6 +262,6 @@ This ensures both conditions are met by the **same item**, not different items i
 
 ---
 
-> 💬 **Found this helpful?** Drop a ⭐ on the repo and share with your study group!
->
-> 🔗 Part of the **MongoDB Zero to Hero** series — follow for more!
+> 🙌 **Contributed by:** Vivek Pandey  
+> 📅 **Last Updated:** 2026  
+> ⭐ If this helped you, consider starring the repo!
