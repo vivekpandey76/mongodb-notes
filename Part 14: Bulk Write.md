@@ -253,3 +253,7 @@ db.collection.bulkWrite([...], { ordered: false })
 ---
 
 > 💬 **Pro tip:** Always test your filters with a `find()` query before running `bulkWrite()` in production to confirm you're targeting the right documents.
+
+> 🙌 **Contributed by:** Vivek Pandey  
+> 📅 **Last Updated:** 2026  
+> ⭐ If this helped you, consider starring the repo!
