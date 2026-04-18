@@ -149,3 +149,7 @@ db.Customers.updateOne(
 ---
 
 > 💬 **Rule of thumb:** If there's any chance you'll need the data back — always go with soft delete.
+
+> 🙌 **Contributed by:** Vivek Pandey  
+> 📅 **Last Updated:** 2026  
+> ⭐ If this helped you, consider starring the repo!
