@@ -408,19 +408,6 @@ db.CustomerLarge.dropIndex("email_1_age_1")      // Drop specific index by name
 db.CustomerLarge.dropIndexes()                   // Drop all indexes (except _id)
 ```
 
----
-
-## 📚 Further Reading
-
-- [MongoDB Official Indexing Docs](https://www.mongodb.com/docs/manual/indexes/)
-- [Query Optimization with explain()](https://www.mongodb.com/docs/manual/tutorial/analyze-query-plan/)
-- [ESR Rule for Compound Indexes](https://www.mongodb.com/docs/manual/tutorial/create-indexes-to-support-queries/)
-- [TTL Indexes](https://www.mongodb.com/docs/manual/core/index-ttl/)
-
----
-
-<div align="center">
-
-Made with ❤️ for MongoDB developers
-
-</div>
+> 🙌 **Contributed by:** Vivek Pandey  
+> 📅 **Last Updated:** 2026  
+> ⭐ If this helped you, consider starring the repo!
