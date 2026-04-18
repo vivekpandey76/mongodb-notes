@@ -213,4 +213,6 @@ db.Col.find({ status: "active" }, { name: 1, _id: 0 })
 
 ---
 
-<p align="center">Made with 🍃 for MongoDB learners</p>
+> 🙌 **Contributed by:** Vivek Pandey  
+> 📅 **Last Updated:** 2026  
+> ⭐ If this helped you, consider starring the repo!
