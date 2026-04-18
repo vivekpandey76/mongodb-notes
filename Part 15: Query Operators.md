@@ -219,4 +219,6 @@ db.Customers.find(
 
 ---
 
-*Made with ❤️ for MongoDB learners*
+> 🙌 **Contributed by:** Vivek Pandey  
+> 📅 **Last Updated:** 2026  
+> ⭐ If this helped you, consider starring the repo!
