@@ -8,7 +8,7 @@
 
 <div align="center">
 
-[![MongoDB Logical Operators - Video Tutorial](https://img.youtube.com/vi/yp_dxjs-a-s/maxresdefault.jpg)](https://youtu.be/yp_dxjs-a-s)
+[![MongoDB Basic Query](https://img.youtube.com/vi/_3AB2R5F3ig/maxresdefault.jpg)](https://www.youtube.com/watch?v=_3AB2R5F3ig)
 
 ### 📺 [Watch This Video](https://youtu.be/yp_dxjs-a-s) &nbsp;|&nbsp; 🎵 [Full MongoDB Playlist](https://www.youtube.com/playlist?list=PLkFShEMrLia0s46qqN4CykmOrkGoPyHnW) &nbsp;|&nbsp; 🔔 Subscribe for more!
 
