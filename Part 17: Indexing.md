@@ -38,7 +38,7 @@ With an index, MongoDB performs an **Index Scan (IXSCAN)** — it looks up the i
 
 ## 🔬 How It Works Internally
 
-![MongoDB Indexing Diagram](./mongodb_indexing_diagram.png)
+![MongoDB Indexing Diagram](./indexing.png)
 
 MongoDB uses a **B+ Tree** data structure to store index entries. Here's why:
 
