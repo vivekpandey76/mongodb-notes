@@ -8,9 +8,9 @@ This section covers the fundamental MongoDB concepts and basic commands required
 
 <div align="center">
 
-[![MongoDB Basic Query - Video Tutorial](https://img.youtube.com/vi/3AB2R5F3ig/maxresdefault.jpg)](https://www.youtube.com/watch?v=_3AB2R5F3ig)
+[![MongoDB Basic Query - Video Tutorial](https://img.youtube.com/vi/3AB2R5F3ig/maxresdefault.jpg)](https://www.youtube.com/watch?v=3AB2R5F3ig)
 
-### 📺 [Watch This Video](https://www.youtube.com/watch?v=_3AB2R5F3ig) &nbsp;|&nbsp; 🎵 [Full MongoDB Playlist](https://www.youtube.com/playlist?list=PLkFShEMrLia0s46qqN4CykmOrkGoPyHnW) &nbsp;|&nbsp; 🔔 Subscribe for more!
+### 📺 [Watch This Video](https://www.youtube.com/watch?v=3AB2R5F3ig) &nbsp;|&nbsp; 🎵 [Full MongoDB Playlist](https://www.youtube.com/playlist?list=PLkFShEMrLia0s46qqN4CykmOrkGoPyHnW) &nbsp;|&nbsp; 🔔 Subscribe for more!
 
 > 💛 **Support me** — If this helped you, please **like 👍**, **share 🔗**, **subscribe 🔔**, and follow the full playlist to learn MongoDB from scratch!
 
