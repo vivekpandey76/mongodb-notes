@@ -259,3 +259,7 @@ Both queries produce **identical results**. The shorthand (Method 2) is more con
 | **Performance** | Place the most selective condition first inside `$and` arrays — MongoDB evaluates left to right |
 
 ---
+
+> 🙌 **Contributed by:** Vivek Pandey  
+> 📅 **Last Updated:** 2026  
+> ⭐ If this helped you, consider starring the repo!
