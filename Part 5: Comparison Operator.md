@@ -213,4 +213,6 @@ Reviews     → { verified, ... }
 
 ---
 
-*Part of the MongoDB Query Operators documentation series.*
+> 🙌 **Contributed by:** Vivek Pandey  
+> 📅 **Last Updated:** 2026  
+> ⭐ If this helped you, consider starring the repo!
