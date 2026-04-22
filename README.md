@@ -1,17 +1,24 @@
-# 🍃 MongoDB — Complete Notes & Cheat Sheet
+# 🍃 MongoDB — Complete Notes, Cheat Sheet & Learning Guide (Parts 1–27)
 
-> A comprehensive, beginner-to-advanced MongoDB guide with **22 structured parts** — covering everything from basics to Atlas Search, Aggregation Pipelines, Indexing, and beyond.
+> The most comprehensive, beginner-to-advanced **MongoDB tutorial & reference** on GitHub — covering **27 structured parts** from basics to Replication, Sharding, Transactions, Atlas Search, Aggregation Pipelines, Indexing, Triggers, and **MongoDB with Node.js Integration**.
 
 [![MongoDB](https://img.shields.io/badge/MongoDB-6.0+-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/?style=for-the-badge)](.)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](.)
+[![Stars](https://img.shields.io/github/stars/vivekpandey76/mongodb-notes?style=for-the-badge&logo=github)](https://github.com/vivekpandey76/mongodb-notes/stargazers)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](https://github.com/vivekpandey76/mongodb-notes/pulls)
 
 ---
 
+<!-- SEO Keywords: MongoDB tutorial, MongoDB cheat sheet, MongoDB notes, MongoDB for beginners, MongoDB aggregation pipeline, MongoDB indexing, MongoDB Atlas, MongoDB replication, MongoDB sharding, MongoDB transactions, MongoDB triggers, MongoDB Node.js, Mongoose CRUD, NoSQL database guide, MongoDB complete course, mongodb learning guide, mongodb query operators, mongodb full course, mongodb with express -->
+
 ## 📖 What's Inside?
 
-This repository is a **structured, hands-on MongoDB learning guide** — great for developers who want to go from zero to production-ready MongoDB skills. Each part is a focused, self-contained Markdown file with real code examples and clear explanations.
+This repository is a **structured, hands-on MongoDB learning guide** — the perfect reference for developers going from zero to production-ready MongoDB skills. Each part is a focused, self-contained Markdown file packed with **real code examples**, clear explanations, and practical tips.
+
+🔗 **Related Repositories:**
+- 📦 **[mongodb-dataset](https://github.com/vivekpandey76/mongodb-dataset)** — Ready-to-use E-commerce JSON datasets (Customers, Orders, Products, Reviews) to practice queries in this guide.
+- 🟢 **[mongodb-nodejs-project](https://github.com/vivekpandey76/mongodb-nodejs-project)** — Full **MongoDB + Node.js Integration** with Express & Mongoose — complete CRUD API (Part 27 companion project).
 
 ---
 
@@ -20,7 +27,7 @@ This repository is a **structured, hands-on MongoDB learning guide** — great f
 Click any part to open it directly:
 
 | # | Topic | What You'll Learn |
-|---|-------|------------------|
+|---|-------|-------------------|
 | 01 | [📌 What is MongoDB?](./Part%201%3A%20What%20is%20mongodb.md) | NoSQL vs SQL, documents, collections, why MongoDB |
 | 02 | [☁️ MongoDB Atlas Setup](./Part%202%3A%20Mongodb%20atlas.md) | Cloud setup, cluster creation, connection strings |
 | 03 | [🔍 Basic Queries](./Part%203%3A%20Basic%20Query.md) | `find`, `findOne`, filtering documents |
@@ -43,41 +50,148 @@ Click any part to open it directly:
 | 20 | [🔄 Aggregation Expert](./Part%2020%3A%20Aggregation%20Advance%20%28%24addfields%2C%24merge%2C%24cond%29.md) | `$addFields`, `$merge`, `$cond`, `$switch` |
 | 21 | [🌐 MongoDB Atlas — Part 1](./Part%2021%3A%20Mongodb%20Atlas%20Part%201.md) | Atlas Search basics, analyzers, index config |
 | 22 | [🌐 MongoDB Atlas — Fuzzy & Compound](./Part%2022%3A%20Mongodb%20atlas%28Fuzzy%2Ccompound%29.md) | Fuzzy search, compound queries, scoring |
+| 23 | [🌐 MongoDB Atlas — Autocomplete & Custom Search](./Part%2023%3A%20Mongodb%20Atlas%28Autocomplete%2CCustom%20search%2C%20storedSource%29.md) | Autocomplete, custom search, stored source |
+| 24 | [⚙️ Triggers in MongoDB](./Part%2024%3A%20Triggers%20in%20Mongodb.md) | Database triggers, scheduled triggers, event-driven logic |
+| 25 | [🔒 Transactions in MongoDB](./Part%2025%3A%20Transactions%20in%20Mongodb.md) | ACID transactions, sessions, multi-document writes |
+| 26 | [🌍 Sharding in MongoDB](./Part%2026%3A%20Sharding%20in%20Mongodb.md) | Horizontal scaling, shard keys, mongos, chunks |
+| 27 | [♻️ Replication in MongoDB](./Part%2027%3A%20Replication%20in%20Mongodb.md) | Replica sets, primary/secondary, failover, oplog |
 
 ---
 
-## 🚀 Getting Started
+## 🟢 Part 27 — MongoDB with Node.js Integration & CRUD
+
+> **The final part of this series goes full-stack!** Learn how to connect MongoDB to a Node.js + Express application using Mongoose, and build a complete REST API.
+
+### 🔗 [→ View the Node.js Integration Project](https://github.com/vivekpandey76/mongodb-nodejs-project)
+
+| Feature | Detail |
+|---------|--------|
+| **Runtime** | Node.js (v16+) |
+| **Framework** | Express.js |
+| **Database** | MongoDB (local) |
+| **ODM** | Mongoose |
+| **CRUD** | Create, Read, Update, Soft-Delete |
+
+**API Endpoints:**
+
+| Method | Route | Description |
+|--------|-------|-------------|
+| `POST` | `/users` | Create a new user |
+| `GET` | `/users` | Get all users |
+| `GET` | `/users/:id` | Get user by ID |
+| `PUT` | `/users/:id` | Update user |
+| `DELETE` | `/users/:id` | Soft-delete user |
+
+**User Schema:** `name`, `email`, `age`, `phone`, `isDeleted` (soft delete pattern)
+
+> **Note:** Delete is a **soft delete** — it sets `isDeleted: true` instead of permanently removing the document.
+
+---
+
+## 📦 Practice Datasets
+
+Want real data to practice queries? Use the ready-made E-commerce dataset:
+
+### 🔗 [→ mongodb-dataset — E-commerce JSON Datasets](https://github.com/vivekpandey76/mongodb-dataset)
+
+#### Option 1 — Manual Import (via Mongo Shell / Compass)
+
+```bash
+# 1. Create the database
+use ecommerce
+
+# 2. Import each collection
+db.Customers.insertMany([/* paste Customer-dataset.json content */])
+db.Orders.insertMany([/* paste OrdersCollection.json content */])
+db.Products.insertMany([/* paste Products-dataset.json content */])
+db.Reviews.insertMany([/* paste Reviews-dataset.json content */])
+db.CustomerLarge.insertMany([/* paste CustomerLarge.json content */])
+db.CustomerOtp.insertMany([/* paste CustomerOtp.json content */])
+```
+
+#### Option 2 — Script-Based Import (Automated)
+
+```bash
+# Clone the dataset repo
+git clone https://github.com/vivekpandey76/mongodb-dataset.git
+cd mongodb-dataset
+
+# Run the import script (if provided)
+node import.js
+# or use mongoimport:
+mongoimport --db ecommerce --collection Customers --file Customer-dataset.json --jsonArray
+mongoimport --db ecommerce --collection Orders --file OrdersCollection.json --jsonArray
+mongoimport --db ecommerce --collection Products --file Products-dataset.json --jsonArray
+mongoimport --db ecommerce --collection Reviews --file Reviews-dataset.json --jsonArray
+```
+
+**Collections available:**
+- 👤 `Customers` — customer profiles
+- 📦 `Orders` — order history
+- 🛍️ `Products` — product catalogue
+- ⭐ `Reviews` — product reviews
+- 👥 `CustomerLarge` — large dataset for performance/indexing tests
+- 🔐 `CustomerOtp` — OTP verification data
+
+---
+
+## 🚀 Getting Started with This Guide
 
 ### Prerequisites
 
-- Node.js `v18+`
 - MongoDB installed locally **or** a free [MongoDB Atlas](https://www.mongodb.com/atlas) account
+- [MongoDB Shell (mongosh)](https://www.mongodb.com/docs/mongodb-shell/) or [MongoDB Compass](https://www.mongodb.com/products/compass)
+- Node.js `v18+` (for the Node.js integration part)
 
 ### Quick Start
 
 ```bash
-# 1. Clone the repository
-git clone https://github.com/your-username/mongodb-notes.git
+# 1. Clone this notes repository
+git clone https://github.com/vivekpandey76/mongodb-notes.git
 cd mongodb-notes
 
-# 2. Install dependencies
-npm install
+# 2. Browse the parts in order
+# Open any Part X.md file to start learning
 
-# 3. Run the example scripts
-node index.js
+# 3. Clone & run the Node.js project (Part 27)
+git clone https://github.com/vivekpandey76/mongodb-nodejs-project.git
+cd mongodb-nodejs-project
+npm install
+node server.js
+
+# 4. Clone & load the practice datasets
+git clone https://github.com/vivekpandey76/mongodb-dataset.git
 ```
 
 ---
 
-## 🗺️ Learning Path
-
-Follow this recommended order if you're just getting started:
+## 🗺️ Recommended Learning Path
 
 ```
-Beginner  ──▶  Part 1 → 2 → 3 → 4 → 5 → 6 → 9
-Intermediate ──▶  Part 7 → 8 → 10 → 11 → 12 → 13 → 14 → 15 → 16
-Advanced  ──▶  Part 17 → 18 → 19 → 20 → 21 → 22
+🟢 Beginner     ──▶  Parts  1 → 2 → 3 → 4 → 5 → 6 → 9
+🟡 Intermediate ──▶  Parts  7 → 8 → 10 → 11 → 12 → 13 → 14 → 15 → 16
+🔴 Advanced     ──▶  Parts  17 → 18 → 19 → 20 → 21 → 22 → 23
+🚀 Expert       ──▶  Parts  24 → 25 → 26 → 27 (+ Node.js project)
 ```
+
+---
+
+## 💡 Key Concepts at a Glance
+
+| Concept | Parts |
+|---------|-------|
+| **Core CRUD & Queries** | Parts 3, 4 |
+| **Filtering & Operators** | Parts 5, 6, 15 |
+| **Data Modelling** | Parts 7, 8, 9 |
+| **Performance & Pagination** | Parts 10, 11, 17 |
+| **Array & Update** | Parts 12, 13, 14 |
+| **Search & Regex** | Parts 16, 21, 22, 23 |
+| **Aggregation Pipeline** | Parts 18, 19, 20 |
+| **Triggers & Automation** | Part 24 |
+| **Transactions (ACID)** | Part 25 |
+| **Sharding (Scale-out)** | Part 26 |
+| **Replication & HA** | Part 27 |
+| **Node.js Integration** | [mongodb-nodejs-project](https://github.com/vivekpandey76/mongodb-nodejs-project) |
 
 ---
 
@@ -85,17 +199,17 @@ Advanced  ──▶  Part 17 → 18 → 19 → 20 → 21 → 22
 
 ```
 mongodb-notes/
-├── README.md                          ← You are here
-├── index.js                           ← Example scripts
-├── Part 1: What is mongodb.md
-├── Part 2: Mongodb atlas.md
-├── Part 3: Basic Query.md
-├── Part 4: Crud.md
-├── Part 5: Comparison Operator.md
-├── Part 6: Logical Operator.md
-├── Part 7: Soft Delete vs Hard Delete.md
-├── Part 8: Embedding vs Referencing.md
-├── Part 9: Data Types.md
+├── README.md                                              ← You are here
+├── index.js                                              ← Example scripts
+├── Part 1:  What is mongodb.md
+├── Part 2:  Mongodb atlas.md
+├── Part 3:  Basic Query.md
+├── Part 4:  Crud.md
+├── Part 5:  Comparison Operator.md
+├── Part 6:  Logical Operator.md
+├── Part 7:  Soft Delete vs Hard Delete.md
+├── Part 8:  Embedding vs Referencing.md
+├── Part 9:  Data Types.md
 ├── Part 10: Cursor (skip,limit,sort).md
 ├── Part 11: Projection in mongodb.md
 ├── Part 12: Array Operators.md
@@ -108,22 +222,22 @@ mongodb-notes/
 ├── Part 19: Aggregation Advance (lookup, facet, unwind).md
 ├── Part 20: Aggregation Advance ($addfields,$merge,$cond).md
 ├── Part 21: Mongodb Atlas Part 1.md
-└── Part 22: Mongodb atlas(Fuzzy,compound).md
+├── Part 22: Mongodb atlas(Fuzzy,compound).md
+├── Part 23: Mongodb Atlas(Autocomplete,Custom search,storedSource).md
+├── Part 24: Triggers in Mongodb.md
+├── Part 25: Transactions in Mongodb.md
+├── Part 26: Sharding in Mongodb.md
+└── Part 27: Replication in Mongodb.md
 ```
 
 ---
 
-## 💡 Key Concepts at a Glance
+## 🔗 Related Repositories
 
-| Concept | Parts |
-|---------|-------|
-| **Core CRUD** | Parts 3, 4 |
-| **Filtering & Operators** | Parts 5, 6, 15 |
-| **Data Modelling** | Parts 7, 8, 9 |
-| **Performance & Pagination** | Parts 10, 11, 17 |
-| **Array & Update** | Parts 12, 13, 14 |
-| **Search** | Parts 16, 21, 22 |
-| **Aggregation Pipeline** | Parts 18, 19, 20 |
+| Repository | Description | Link |
+|------------|-------------|------|
+| 📦 **mongodb-dataset** | E-commerce JSON datasets for practice | [→ Visit](https://github.com/vivekpandey76/mongodb-dataset) |
+| 🟢 **mongodb-nodejs-project** | MongoDB + Node.js + Express CRUD API | [→ Visit](https://github.com/vivekpandey76/mongodb-nodejs-project) |
 
 ---
 
@@ -141,14 +255,36 @@ Contributions, issues, and feature requests are welcome!
 
 ## ⭐ Show Your Support
 
-If these notes helped you, please **star ⭐ this repository** — it helps others discover it!
+If these notes helped you, please **star ⭐ this repository** — it helps others discover it and keeps this resource growing for the community!
 
 ---
 
 ## 📜 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+```
+MIT License
+
+Copyright (c) 2024 Vivek Pandey
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
 
 ---
 
-> Made with ❤️ for the developer community | Happy Learning! 🍃
+> Made with ❤️ by [Vivek Pandey](https://github.com/vivekpandey76) for the developer community | Happy Learning! 🍃
