@@ -58,6 +58,19 @@ Click any part to open it directly:
 
 ---
 
+## 📺 YouTube Playlist — Complete Explanations
+
+### 🎬 [→ Watch the Full MongoDB Playlist on YouTube](https://www.youtube.com/playlist?list=PLkFShEMrLia0s46qqN4CykmOrkGoPyHnW)
+
+> **Check out the complete playlist with in-depth explanations for every concept!** Each video walks through the topics covered in these notes with live examples, debugging tips, and best practices.
+
+**Don't forget to:**
+- ✅ **Like** the videos if they help you
+- 🔔 **Subscribe** to the channel for more MongoDB tutorials
+- 💬 Comment with questions or topics you'd like covered next
+
+---
+
 ## 🟢 Part 27 — MongoDB with Node.js Integration & CRUD
 
 > **The final part of this series goes full-stack!** Learn how to connect MongoDB to a Node.js + Express application using Mongoose, and build a complete REST API.
@@ -173,6 +186,8 @@ git clone https://github.com/vivekpandey76/mongodb-dataset.git
 🔴 Advanced     ──▶  Parts  17 → 18 → 19 → 20 → 21 → 22 → 23
 🚀 Expert       ──▶  Parts  24 → 25 → 26 → 27 (+ Node.js project)
 ```
+
+**💡 Tip:** Pair each part from the table of contents with the corresponding video from the YouTube playlist for the best learning experience!
 
 ---
 
