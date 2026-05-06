@@ -94,7 +94,7 @@ START_TRANSACTION
 
 ## Visual Guide
 
-![MongoDB Transactions Diagram](./Transactions.png)
+![MongoDB Transactions Diagram](../../assets/images/transactions.png)
 
 This diagram illustrates:
 

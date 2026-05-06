@@ -37,7 +37,7 @@ Sharding is a **database partitioning technique** that distributes data across m
 
 ## How Does It Work?
 
-![Sharding Architecture](Sharding.png)
+![Sharding Architecture](../../assets/images/sharding.png)
 
 ### Step-by-Step Process
 

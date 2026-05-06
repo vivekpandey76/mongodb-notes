@@ -1,6 +1,6 @@
 # MongoDB Replication Guide
 
-![MongoDB Replication Architecture](./Replication.png)
+![MongoDB Replication Architecture](../../assets/images/replication.png)
 
 A comprehensive guide to understanding, implementing, and managing MongoDB Replica Sets for high availability, redundancy, and automatic failover.
 

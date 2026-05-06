@@ -72,7 +72,7 @@ In this section, we will:
 
 Once you log into [MongoDB Atlas](https://cloud.mongodb.com), you get a powerful dashboard:
 
-![MongoDB Atlas Cluster](./Cluster.png)
+![MongoDB Atlas Cluster](../../assets/images/cluster.png)
 
 **Key sections in the Atlas UI:**
 
