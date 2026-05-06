@@ -16,6 +16,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.0.0] — 2026-05-06
+
+### Changed
+- **Repository restructured** for professional readability and navigation
+- All 27 parts moved from flat root into categorised `docs/` subdirectories:
+  - `docs/01-fundamentals/` — Parts 01–02
+  - `docs/02-querying/` — Parts 03–06, 09–11, 15–16
+  - `docs/03-data-modelling/` — Parts 07–08
+  - `docs/04-advanced-operations/` — Parts 12–14, 17
+  - `docs/05-aggregation/` — Parts 18–20
+  - `docs/06-atlas-search/` — Parts 21–23
+  - `docs/07-production/` — Parts 24–27
+- All filenames renamed to **kebab-case** (no spaces, colons, or parentheses)
+- Architecture diagrams moved to `assets/images/`
+- `index.js` moved to `examples/mongoose-crud-example.js`
+- `README.md` fully rewritten with updated links, structured ToC, and cleaner layout
+
+---
+
 ## [1.0.0] — 2024-04-01
 
 ### Added
@@ -49,12 +68,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Part 27: Replication — replica sets, primary/secondary nodes, failover, oplog
 - `index.js` — example Node.js + Mongoose integration scripts
 - Architecture diagrams: `Cluster.png`, `Replication.png`, `Sharding.png`, `Transactions.png`, `indexing.png`
-- `README.md` — full table of contents, learning path, related repos, dataset import guide
-- `LICENSE` — MIT License
-- `CONTRIBUTING.md` — contribution guide
-- `CODE_OF_CONDUCT.md` — community standards
+- `README.md`, `LICENSE`, `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`
 
 ---
 
-[Unreleased]: https://github.com/vivekpandey76/mongodb-notes/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/vivekpandey76/mongodb-notes/compare/v2.0.0...HEAD
+[2.0.0]: https://github.com/vivekpandey76/mongodb-notes/compare/v1.0.0...v2.0.0
 [1.0.0]: https://github.com/vivekpandey76/mongodb-notes/releases/tag/v1.0.0
