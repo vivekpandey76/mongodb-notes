@@ -12,6 +12,29 @@
 
 ---
 
+## 📺 Watch the Full Course on YouTube
+
+[![Watch Full MongoDB Course on YouTube](https://img.youtube.com/vi/rOjFGCFEOIM/maxresdefault.jpg)](https://www.youtube.com/watch?v=rOjFGCFEOIM)
+
+### ▶️ [Watch Full MongoDB Course — Zero to Advanced](https://www.youtube.com/watch?v=rOjFGCFEOIM)
+
+[![YouTube](https://img.shields.io/badge/YouTube-Watch%20Now-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=rOjFGCFEOIM)
+
+> 🎓 **27 structured parts** — from absolute beginner to production-grade MongoDB. Every concept in this repo is explained live with real examples, debugging tips, and best practices.
+
+**If this course helps you, please take 5 seconds to:**
+
+| Action | Why It Matters |
+|--------|----------------|
+| 👍 **[Like the video](https://www.youtube.com/watch?v=rOjFGCFEOIM)** | Helps YouTube recommend it to more developers |
+| 🔔 **[Subscribe to the channel](https://www.youtube.com/watch?v=rOjFGCFEOIM)** | Get notified when new tutorials drop |
+| 💬 **Drop a comment** | Ask questions, share feedback — I read every one! |
+| 🌟 **Star this repo** | Helps others discover this free resource |
+
+> 💡 Your likes, comments and subscriptions directly motivate me to create more **free, high-quality content** like this. Every single interaction counts!
+
+---
+
 ## 📖 Overview
 
 This repository is a **structured, hands-on MongoDB learning guide** — the perfect reference for developers going from zero to production-ready MongoDB skills. Each part is a focused, self-contained Markdown file packed with **real code examples**, clear explanations, and practical tips.
@@ -126,7 +149,7 @@ mongodb-notes/
 🚀 Expert        ──▶  07-production  →  examples/mongoose-crud-example.js
 ```
 
-> **💡 Tip:** Pair each part with the corresponding video from the [YouTube Playlist](https://www.youtube.com/playlist?list=PLkFShEMrLia0s46qqN4CykmOrkGoPyHnW) for the best learning experience!
+> **💡 Tip:** Pair each part with the [full YouTube course](https://www.youtube.com/watch?v=rOjFGCFEOIM) for the best learning experience. Like & subscribe to support more free content! 🙌
 
 ---
 
@@ -148,12 +171,6 @@ mongodb-notes/
 | **Node.js Integration** | [mongodb-nodejs-project](https://github.com/vivekpandey76/mongodb-nodejs-project) |
 
 ---
-
-## 📺 YouTube Playlist
-
-### 🎬 [→ Watch the Full MongoDB Playlist on YouTube](https://www.youtube.com/playlist?list=PLkFShEMrLia0s46qqN4CykmOrkGoPyHnW)
-
-> **In-depth video explanations for every concept!** Each video walks through the topics with live examples, debugging tips, and best practices.
 
 ---
 
